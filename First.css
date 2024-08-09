@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* src/First.css */
+.bg {
+    background-image: url('robot1.webp'); /* public 폴더 내의 절대 경로 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+.content {
+    text-align: center;
+    color: rgba(14, 13, 13, 0.94);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.content input {
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px 0;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.content button {
+    font-size: 40px;
+    padding: 10px 20px;
+    background-color: rgb(75, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nickname {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+#nickname input {
+    border: 1px solid #ccc;
+}
+
+.content button:hover {
+    background-color: darkgray;
+}
